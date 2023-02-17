@@ -1,0 +1,284 @@
+.background-gray {
+  background-color: darkgray;
+}
+
+.navbar-background {
+  background-color: white !important;
+}
+
+.font-orbitron {
+  font-family: Orbitron;
+}
+
+.section {
+  height: 500px;
+  border: 2px double lightgray;
+}
+
+.menubar {
+  height: 100px;
+  z-index: 10;
+}
+
+.fixed-menubar {
+  padding-top: 100px;
+}
+
+.bubble-background {
+  background-image: url("assets/images/bubble-background.png");
+}
+
+.gradient-background {
+  background-image: url("assets/images/gradient-background.png");
+  background-size: 100% 100%;
+}
+
+.text-darkblue {
+  color: darkblue;
+}
+
+.text-dark {
+  color: black;
+}
+
+.about-text {
+  margin: 60px 0;
+  padding-left: 90px;
+  padding-right: 90px;
+  font-size: 1.5rem;
+  text-align: left;
+  white-space: normal;
+}
+
+.teammembers {
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.profile {
+  width: 230px;
+  border-radius: 50%;
+}
+
+.audit {
+  width: 230px;
+}
+
+.logo {
+  width: 120px;
+}
+
+.walletAddress {
+  color: black;
+  margin: auto 3px;
+  width: max-content;
+}
+
+.connectedWallet {
+  display: flex;
+  align-items: center;
+}
+
+.minerLink {
+  color: white;
+  text-decoration: none;
+}
+
+.minerLink:hover {
+  color: white;
+}
+
+.mintBtn {
+  margin-top: 30px;
+}
+
+.miner-img {
+  width: 230px;
+}
+
+.miner-rows {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.nft-rows {
+  margin: 20px auto;
+  width: 90%;
+  text-align: center;
+}
+
+span.left-align-divider {
+  background: #f7941d;
+  width: 6rem;
+  height: 2px;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.roadmap {
+  padding: 70px;
+  background-color: #0d6efd;
+}
+
+.miner-box {
+  border: 3px solid #0d6efd;
+  border-radius: 10px;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.font-1 {
+  color: rgb(156 233 253);
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.font-2 {
+  color: rgb(235 255 255);
+  font-size: 25px;
+  font-weight: bolder;
+}
+
+.height-100 {
+  height: 100px;
+}
+
+.vertical-timeline-element-date {
+  color: white;
+}
+
+.vertical-timeline::before {
+  background-color: white !important;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 18px;
+  height: 100%;
+  width: 4px;
+  background: var(--line-color);
+}
+
+.margin-top-100 {
+  margin-top: 100px;
+}
+
+@media only screen and (min-width: 1170px) {
+  .vertical-timeline.vertical-timeline--two-columns:before {
+    left: 50%;
+    margin-left: -2px;
+    background-color: white;
+  }
+}
+
+.social-media {
+  height: 32px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.twitter {
+  height: 28px;
+  margin-left: 3px;
+  margin-top: 2px;
+}
+
+.nav-bar-left {
+  width: 66.66%;
+}
+
+.nav-bar-right {
+  justify-content: flex-end;
+  width: 33.33%;
+}
+
+.nav-bar-font {
+  font-size: 16px;
+}
+
+.miner-margin {
+  margin: 15px auto;
+}
+
+.p-075 {
+  padding: 0 0.75rem;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.table-font-size {
+  font-size: 1rem;
+}
+
+@media only screen and (max-width: 1250px) {
+  .nav-bar-left {
+    width: 100%;
+  }
+
+  .nav-bar-right {
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 15px;
+  }
+
+  .menubar {
+    height: 160px;
+    z-index: 10;
+  }
+
+  .fixed-menubar {
+    padding-top: 160px;
+  }
+
+  .about-text {
+    margin: 30px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 1rem;
+    text-align: left;
+    white-space: normal;
+  }
+
+  .logo {
+    width: 40px;
+  }
+
+  .w-80 {
+    width: 100%;
+  }
+
+  .nav-bar-font {
+    font-size: 5px;
+  }
+
+  .connect-wallet-btn {
+    padding: 0.5rem 0.5rem;
+    font-size: 1rem;
+  }
+
+  .walletAddress {
+    color: black;
+    margin: auto 8px;
+    width: max-content;
+    font-size: 11px;
+  }
+
+  .navbar-brand {
+    margin-right: 0;
+  }
+
+  .nft-rows {
+    margin: 20px auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .table-font-size {
+    font-size: 0.7rem;
+  }
+
+  .margin-top-100 {
+    margin-top: 50px;
+  }
+}
